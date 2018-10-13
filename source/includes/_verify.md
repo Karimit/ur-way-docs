@@ -30,7 +30,7 @@ Errors
 
 Status | Error Code | Meaning
 ------ | ---------- | -------
-422 | invalid_phone | phone is missing or invalid
+422 | invalid_data | phone is missing or invalid
 500 | sending_verification_failed | Verification service failed
 
 ## verify
@@ -70,6 +70,6 @@ Errors
 
 Status | Error Code | Meaning
 ------ | ---------- | -------
-422 | invalid_phone | phone is missing or invalid
-422 | verification_failed | verification_code is invalid or expired
-422 | missing_verification_code | verification_code is missing
+422 | invalid_data | phone is missing or invalid
+422 | verification_failed | verification_code is invalid or has expired
+422 | missing_data | verification_code is missing
