@@ -70,6 +70,10 @@ HTTP/1.1 200 OK
 }
 ```
 
+The `verification_token` expires in 5 minutes.
+
+If `connect` request fails (due to an expired or incorrect verification_token), the application needs to start the verification process again.
+
 Endpoint
 
 `POST /connect`
