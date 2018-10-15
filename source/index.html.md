@@ -11,6 +11,7 @@ toc_footers:
 includes:
   - verify
   - connect
+  - profile_updates
   - errors
 
 search: true
